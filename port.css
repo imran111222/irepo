@@ -1,0 +1,111 @@
+.sidebar li{
+    text-align: center;
+    margin: 0px 5px;
+    /* border: 1px solid red; */
+    display: inline-block;
+    border-radius: 14px;
+    padding: 5px;
+}
+.sidebar li:hover{
+    background-color:rgb(179, 53, 53);
+}
+.sidebar ul{
+    /* border: 1px solid red; */
+    padding: 10px;
+}
+.sidebar a{
+    text-decoration: none;
+    color: rgb(225, 213, 213);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+.sidebar{
+    background-color: #5e5858;
+    margin-left: 450px;
+    width:28%;
+    border-radius: 30px;
+}
+body{
+    margin: 0;
+    background-color: rgb(19, 19, 19);
+    height: 1800px;
+    /* background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210324/pngtree-abstract-memphis-playful-portfolio-pink-image_593418.jpg'); */
+}
+.image{
+    margin-left: 570px;
+    width: 690px;
+    height: 500px;
+}
+.intro{
+    position: absolute;
+    top: 220px;
+    margin-left: 50px;
+    /* top: 120px; */
+    
+}
+.main{
+    margin-left: 10px;
+    margin-top: 400px;
+    margin-bottom: 0;
+    border: 1px solid yellow;
+    display: inline-block;
+}
+.pn{
+    margin-left: 33px;
+   color: rgb(222, 205, 205);
+    font-family: 'Jost', sans-serif;
+    font-size:60px;
+    /* border: 1px solid red; */
+}
+/* .main_container{
+    position: absolute;
+    text-align: center;
+} */
+.pn1{
+    /* border: 1px solid red; */
+    color: white;
+    font-family: 'segoe script';
+    font-size:50px;
+    margin-top: 0;
+}
+.pn2{
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-size:60px;
+}
+.btn{
+    padding: 10px;
+    background-color:crimson;
+}
+.btn:hover{
+    background-color: green;
+    zoom: 100%;
+}
+.main_btn a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.main_btn{
+    margin-top: 10px;
+    margin-left: 150px;
+}
+.mid_body{
+    /* position: relative; */
+    margin-top: 10px;
+    /* border-top: 6px solid #f20018; */
+    background-color: gray;
+    height: 600px;
+}
+.mid_body p{
+    width: 25%;
+    color: white;
+}
+.mid_head{
+    margin-left: 500px;
+    color: white;
+}
+.mid_body span{
+    color: crimson;
+}
