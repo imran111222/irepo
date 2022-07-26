@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Software Devoloper | Imran</title>
+    <link
+      rel="icon"
+      href="https://insanereverie.in/wp-content/uploads/2016/04/i.jpg"
+      type="image/jpg"
+    />
+    <link rel="stylesheet" href="cogo.css" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <button id="reload">I</button>
+      <div class="sidebar">
+        <nav class="navbar">
+          <ul>
+            <li class="list1">
+              <a href="#">Home</a>
+            </li>
+            <li class="list1">
+              <a href="#midi">About me</a>
+            </li>
+            <li class="list1">
+              <a href="#">Services</a>
+            </li>
+            <li class="list1">
+              <a href="#">Community</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main_container">
+        <!-- <img class ="image 1"src="https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"> -->
+        <img
+          class="image"
+          src="https://allanmuturi.vercel.app/static/media/undraw_Hello_re_3evm.0239a64b.svg"
+        />
+        <div class="intro">
+          <h class="pn">HI! This is Imran</h>
+          <br />
+          <h class="pn2">Software engineer</h>
+          <div class="main_btn">
+            <button class="btn"><a href="#">view resume</a></button>
+            <!-- <button class="btn"><a href="#">contact me</a></button> -->
+          </div>
+        </div>
+        <!-- <div class="main">
+                <h class="pn">We create</h><br>
+                <h class="pn1">Digital Products</h>
+        </div> -->
+      </div>
+    </div>
+    <div class="mid_body" id="midi">
+      <div class="mid_content">
+      <h class="mid_head"> ABOUT</h><span>ME</span>
+      <br />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni incidunt
+        mollitia suscipit inventore sit maiores quas consequuntur dolore porro
+        voluptates alias modi dicta quasi molestiae, harum tempora, voluptatem
+        pariatur similique odit quia possimus! Dolorem natus et ipsam, dolore
+        quibusdam tempora!
+      </p>
+      </div>
+    </div>
+  </body>
+</html>
