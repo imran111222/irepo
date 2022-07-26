@@ -1,0 +1,41 @@
+import React from "react";
+import { useEffect,useState } from "react";
+
+import "./index.css";
+import {Link,useParams,Route} from 'react-router-dom';
+
+function Detail(){
+    const [Details,setDetail]=useState([]);
+    const {id}=useParams();
+    console.log(id)
+    useEffect(()=>{
+        getRoute()
+    },[])
+    const getRoute=async()=>{
+        const url = `http://www.omdbapi.com/?&apikey=7190832d&i=`+id;
+        const rep =await fetch(url);
+        const data = await rep.json()
+        // const resp=await axios.get('http://www.omdbapi.com/?&apikey=7190832d&i='+id);
+        console.log(data)
+        setDetail(data);
+    }
+    return(
+        <>
+        <section>
+        <div className="Details_div">
+            <div className="Details_img"> <img src={Details.Poster} className="imgg" alt="movie poster" /></div>
+            <div className="Detail_s">
+            <h1>Movie Details</h1>
+            <p><span className="red_title">Title</span> = {Details.Title}</p>
+            <p><span className="red_title">Year</span> = {Details.Year}</p>
+            <p><span className="red_title">Rated</span> = {Details.Rated}</p>
+            <p><span className="red_title">Released</span> = {Details.Released}</p>
+            <p><span className="red_title">Genre</span> = {Details.Genre}</p>
+            <p><span className="red_title">Director</span> = {Details.Director}</p>
+            <p><span className="red_title">plot</span> = {Details.Plot}</p></div>
+            </div>
+        </section>
+    </>
+    )
+}
+export default Detail;
